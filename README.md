@@ -86,4 +86,4 @@ On startup, if saved settings are present, you will be prompted for the PIN to u
 
 ## License
 
-Hikma is free software, released under the GNU General Public License, version 3 or (at your option) any later version. See `LICENSE` for details.
+Hikma is free software, released under the GNU General Public License v3. See `LICENSE.txt` for the complete plain-text license.
