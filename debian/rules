@@ -6,3 +6,8 @@
 override_dh_auto_configure:
 	# Configure with prefix; version is read from project() in meson.build
 	dh_auto_configure -- --prefix=/usr
+
+override_dh_install:
+	dh_install
+	# Remove any accidental inclusion of hicolor index.theme to avoid conflicts
+	rm -f debian/hikma/usr/share/icons/hicolor/index.theme || true

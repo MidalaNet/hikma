@@ -45,7 +45,7 @@ Using the Makefile wrapper:
 make          # sets up Meson and compiles
 make run      # builds then runs ./build/src/hikma
 make install  # builds then installs via Meson
-make debian   # binary-only Debian packages; copies main .deb to repo root
+make debian   # binary-only Debian packages
 ```
 
 ### Versioning
