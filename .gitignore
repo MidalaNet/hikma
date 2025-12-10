@@ -1,0 +1,40 @@
+### Build directories (Meson/Ninja)
+build/
+obj-*/
+meson-private/
+meson-logs/
+
+### Generated build files
+compile_commands.json
+**/build.ninja
+**/*.o
+**/*.a
+**/*.so
+
+### Debian packaging artifacts
+*.deb
+*.ddeb
+*.buildinfo
+*.changes
+*.dsc
+debian/*.debhelper.log
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+debian/.debhelper/
+debian/hikma/
+
+### Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+.cache/
+
+### Local env/secrets
+.env
+.env.*
+*.env
+*.secret
+secrets.*
+

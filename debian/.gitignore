@@ -1,0 +1,11 @@
+*.debhelper
+*.substvars
+*.log
+*.deb
+*.build
+*.changes
+*.buildinfo
+debian/files
+debian/tmp/
+debian/.debhelper/
+debian/hikma/

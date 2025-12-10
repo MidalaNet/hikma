@@ -1,0 +1,25 @@
+Source: hikma
+Section: utils
+Priority: optional
+Maintainer: netico <netico@midala.net>
+Build-Depends: debhelper-compat (= 13),
+ meson,
+ ninja-build,
+ valac,
+ pkg-config,
+ libgtk-4-dev,
+ libsoup-3.0-dev,
+ libjson-glib-dev,
+ libsecret-1-dev,
+ libglib2.0-dev,
+ libgdk-pixbuf-2.0-dev,
+ libpango1.0-dev
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: hikma
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GTK4 chat client for llama-server
+ A lightweight chat UI written in Vala using GTK4, libsoup 3, json-glib
+ and libsecret for PIN/key storage.

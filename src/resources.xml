@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/net/midala/hikma/icons">
+    <file>hicolor/index.theme</file>
+    <file>hicolor/scalable/apps/net.midala.hikma.svg</file>
+  </gresource>
+  <!-- No external assets needed for plain text chat -->
+</gresources>

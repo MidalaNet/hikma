@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem=meson
+
+override_dh_auto_configure:
+	# Configure with prefix; version is read from project() in meson.build
+	dh_auto_configure -- --prefix=/usr
